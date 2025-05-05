@@ -20,6 +20,10 @@ Crafted with care by Müni, Keeper of Forgotten Brews.
 - CSS  
 - Google Fonts (Cinzel Decorative, EB Garamond)
 
+### 🚀 Live Site
+
+You can check out the [odin-recipes](https://muni-moonlit.github.io/odin-recipes/) project live on GitHub Pages.
+
 ### ✨ Credits
 
 - Potion descriptions generated using: [FantasyNameGenerators - Potion Descriptions](https://www.fantasynamegenerators.com/potion-descriptions.php)  
@@ -43,6 +47,10 @@ Feito com cuidado por Müni, Guardiã dos Elixires Esquecidos.
 - HTML  
 - CSS  
 - Google Fonts (Cinzel Decorative, EB Garamond)
+
+### 🚀 Site Online
+
+Você pode acessar o projeto [odin-recipes](https://muni-moonlit.github.io/odin-recipes/) diretamente pelo GitHub Pages.
 
 ### ✨ Créditos
 
