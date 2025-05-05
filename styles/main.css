@@ -19,6 +19,19 @@ body {
     align-items: center;
 }
 
+.page-content {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+p, li {
+    font-size: 24px;
+}
+
 .background {
     background-image: url('../assets/images/background/grunge-folded-paper-texture-free.jpg');
     background-repeat: repeat-y;
@@ -35,17 +48,20 @@ body {
 .title {
     font-family: "Cinzel Decorative", serif;
     font-weight: 700;
+    font-size: 36px;
 }
 
 .title.main-title {
     font-weight: 900;
     margin-bottom: 0;
     padding-top: 32px;
+    font-size: 64px;
 }
 
 .tagline {
     font-family: "Cinzel Decorative", serif;
     font-weight: 300;
+    font-size: 24px;
     margin-top: 0;
 }
 
@@ -70,7 +86,7 @@ body {
 .ingredients-list ul {
     list-style-type: disc;
     padding-left: 20px;
-    width: 50%;
+    width: 300px;
 }
 
 .ingredients-list li {
@@ -79,7 +95,7 @@ body {
 
 .brewing-instructions ol {
     padding-left: 20px;
-    width: 80%;
+    width: 600px;
 }
 
 .brewing-instructions li {
@@ -135,7 +151,7 @@ hr.mini-hr {
 }
 
 .button.back-button {
-    font-size: small;
+    font-size: medium;
     padding: 4px;
     margin: 4px;
     margin-bottom: auto;
@@ -144,7 +160,7 @@ hr.mini-hr {
 }
 
 .button.back-to-top {
-    font-size: small;
+    font-size: medium;
     padding: 4px;
     margin: 4px;
     margin-top: auto;
