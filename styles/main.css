@@ -19,7 +19,7 @@ body {
     align-items: center;
 }
 
-.page-content {
+.page-content#page-content {
     max-width: 800px;
     display: flex;
     flex-direction: column;
@@ -176,3 +176,66 @@ hr.mini-hr {
     border-radius: 4px;
     border-width: 1px;
 }
+
+@media (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+  
+    .title.main-title {
+      font-size: 2.4rem;
+      padding-top: 1rem;
+      text-align: center;
+    }
+  
+    .tagline,
+    .title {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .description {
+      margin: 1.5rem;
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    p, li {
+      font-size: 1rem;
+    }
+  
+    .image.potion-image {
+      width: 90%;
+      max-width: 300px;
+    }
+  
+    .ingredients-list ul,
+    .brewing-instructions ol {
+      width: 90%;
+    }
+  
+    .button {
+      font-size: 1rem;
+      padding: 6px 12px;
+    }
+  
+    .button.back-button,
+    .button.back-to-top {
+      font-size: 0.9rem;
+      padding: 4px 8px;
+    }
+  
+    hr {
+      width: 70%;
+    }
+  
+    hr.mini-hr {
+      width: 40%;
+    }
+  
+    #recipes-list-title {
+      font-size: 1.2rem;
+      margin: 1rem;
+      text-align: center;
+    }
+  }
